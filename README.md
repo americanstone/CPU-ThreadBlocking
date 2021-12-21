@@ -1,4 +1,4 @@
-# cupThreadBlocking
+# cup Thread Blocking
 
 ## Sleep()  
 This method is defined in Thread class. sleep() sends the current thread into the “Not Runnable” state for some amount of time. The thread keeps the monitors it has acquired This Method is used to pause the execution of current thread for a specified time in Milliseconds. Here, Thread does not lose its ownership of the monitor and resume’s it’s execution. no consuming cpu cycles.
@@ -27,3 +27,4 @@ if there is no synchronzation needed then no need to block(BLOCKED)
 I/O blocking and thread BLOCKED statue are different concepts.  in i/o blocking, thread handle over the job to OS select or poll the thread state is RUNNING.
 https://stackoverflow.com/questions/48968984/java-threads-state-when-performing-i-o-operations
 what's maybe why people say "I/O blocking is waste cpu cycles". I thought the thread is blocked state which doesn't consume cpu
+https://notes.shichao.io/unp/ch6/
