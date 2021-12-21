@@ -24,4 +24,6 @@ if there is no synchronzation needed then no need to block(BLOCKED)
 
 
 ## I/O blocking
-I/O blocking and thread BLOCKED statue are different concepts.  in i/o blocking, usuall put the calling thread in sleep mode.
+I/O blocking and thread BLOCKED statue are different concepts.  in i/o blocking, thread handle over the job to OS select or poll the thread state is RUNNING.
+https://stackoverflow.com/questions/48968984/java-threads-state-when-performing-i-o-operations
+what's maybe why people say "I/O blocking is waste cpu cycles". I thought the thread is blocked state which doesn't consume cpu
