@@ -1,7 +1,7 @@
 # cupThreadBlocking
 
 ## Sleep()  
-This method is defined in Thread class. This Method is used to pause the execution of current thread for a specified time in Milliseconds. Here, Thread does not lose its ownership of the monitor and resume’s it’s execution. no consuming cpu cycles.
+This method is defined in Thread class. sleep() sends the current thread into the “Not Runnable” state for some amount of time. The thread keeps the monitors it has acquired This Method is used to pause the execution of current thread for a specified time in Milliseconds. Here, Thread does not lose its ownership of the monitor and resume’s it’s execution. no consuming cpu cycles.
 let say you are buying a ticket from booth. it's your turn you talk to the seller "I want to take a nap"
 also see https://stackoverflow.com/questions/13680512/does-endless-while-loop-take-up-cpu-resources#:~:text=The%20short%20answer%20is%20yes,a%20file%20or%20network%20operation).
 
