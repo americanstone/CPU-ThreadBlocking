@@ -28,3 +28,5 @@ I/O blocking and thread BLOCKED statue are different concepts.  in i/o blocking,
 https://stackoverflow.com/questions/48968984/java-threads-state-when-performing-i-o-operations
 what's maybe why people say "I/O blocking is waste cpu cycles". I thought the thread is blocked state which doesn't consume cpu
 https://notes.shichao.io/unp/ch6/
+
+https://medium.com/ing-blog/how-does-non-blocking-io-work-under-the-hood-6299d2953c74
