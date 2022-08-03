@@ -1,4 +1,4 @@
-# cup Thread Blocking
+# CPU, Thread Blocking
 
 ## Sleep()  
 This method is defined in Thread class. sleep() sends the current thread into the “Not Runnable” state for some amount of time. The thread keeps the monitors it has acquired This Method is used to pause the execution of current thread for a specified time in Milliseconds. Here, Thread does not lose its ownership of the monitor and resume’s it’s execution. no consuming cpu cycles.
